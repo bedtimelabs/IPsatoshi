@@ -1,34 +1,34 @@
 
 # IPsatoshi: A Bitcoin Scaling Project
 
-IPsatoshi is a proposed Bitcoin scaling project aiming to integrate Bitcoin payments into the broader IPLD decentralized internet. It seeks to leverage the security and immutability of the Bitcoin blockchain and the Rootstock (RSK) sidechain to provide a platform for decentralized applications and services. The project is designed with the ambition to accommodate a larger number of users and transactions, while also providing a platform for decentralized applications and services.
+IPsatoshi is a proposed Bitcoin scaling project aiming to integrate Bitcoin payments into the broader IPLD decentralized internet. It seeks to leverage the security and immutability of the Bitcoin blockchain and the Rootstock merge-mined Bitcoin sidechain to provide a platform for decentralized applications and services. The project is designed with the ambition to accommodate a larger number of users and transactions, while also providing a platform for decentralized applications and services.
 
 ## Core Components
 
-1. **Bitcoin and Rootstock (RSK) Nodes:** These nodes would form the backbone of the IPsatoshi layer, providing the security and immutability of the Bitcoin blockchain. They would validate and relay transactions, ensuring that all operations on the IPsatoshi layer adhere to the consensus rules of Bitcoin. The RSK sidechain could be leveraged to enable smart contract functionality and to bridge the gap between Bitcoin and Ethereum ecosystems.
+1. **Bitcoin and Rootstock (RSK) Nodes:** These nodes would form the base on which the IPsatoshi layer rests. Rootstock is a merge mined Bitcoin sidechain that is incetive aligned with the game theory behind Bitcoin network security. The Rootstock sidechain will serve as a rootnet for IPsatoshi subnet nodes in the Interplanetary Consensus hierarchical consensus scaling architecture.
 	https://dev.rootstock.io/
 
-2. **InterPlanetary Consensus (IPC) with Mir and Trantor:** IPC is a scaling solution created by Consensus Labs of Protocol Labs and Filecoin. It allows for the creation of subnets, which are smaller networks within the larger network. These subnets could be used to implement, debug, and analyze distributed protocols. Mir and Trantor are tools used within IPC to facilitate these processes.
+2. **InterPlanetary Consensus (IPC) with Mir and Trantor:** IPC is a scaling solution created by Consensus Labs of Protocol Labs and Filecoin. It allows for the creation of subnets, which are smaller networks within the larger network. These subnets can operate using their own consensus rules. They are highly configurable and allow for modular scaling. Mir and Trantor are tools used within IPC to facilitate these processes.
 	https://docs.filecoin.io/basics/interplanetary-consensus/hierarchical-consensus/ 
  	https://github.com/consensus-shipyard 
  	https://github.com/filecoin-project/mir
  	https://github.com/filecoin-project/mir/tree/main/pkg/trantor
 
-4. **WebNative File System (WNFS):** WNFS is a decentralized file system that could allow users to control their data and share it across applications and devices. It uses IPFS for data storage and IPLD for data structuring.
+4. **WebNative File System (WNFS):** WNFS is a decentralized file system that could allow users to control their data and share it across applications and devices. It uses IPFS for data storage and IPLD for data structuring. It natively supports UCAN delegation and access control for filesharing etc.
 	https://github.com/wnfs-wg/
 
 5. **InterPlanetary Virtual Machine (IPVM) and Bacalhau:** IPVM and Bacalhau are decentralized computation protocols that could allow for the execution of WebAssembly (Wasm) code in a distributed manner. They use IPLD for data structuring and IPFS for data storage.
 	https://github.com/ipvm-wg
 	https://github.com/bacalhau-project
 
-6. **UCAN Channel Payments:** UCAN (User-Controlled Authorization Networks) is a protocol for decentralized identity and access control. It could allow users to control who can access their data and what they can do with it. In the IPsatoshi layer, UCAN channel payments could be used to facilitate microtransactions and to incentivize the provision of services.
+6. **UCAN + Channel Payments:** UCAN (User-Controlled Authorization Networks) is a protocol for decentralized identity and access control. It could allow users to control who can access their data and what they can do with it. In the IPsatoshi layer, UCAN/IPLD channel payments could be used to facilitate microtransactions and to incentivize the provision of services as well as allow for Bitcoin scale and remain accessible into the future. 
 	https://github.com/ucan-wg 
 
-7. **Decentralized Identifiers (DIDs):** DIDs are a new type of identifier that enables verifiable, decentralized digital identity. They could be used in the IPsatoshi layer to provide a secure and privacy-preserving mechanism for users to create and manage their digital identities.
+7. **Decentralized Identifiers (DIDs):** DIDs are a new type of identifier that enables verifiable, decentralized digital identity. They could be used in the IPsatoshi layer to provide a secure and privacy-preserving mechanism for users to create and manage their digital identities. DIDs could be used to route channel payments and manage isolated user services.
 
 ## Potential AI Integrated GUI
 
-The AI Integrated GUI could be a user-friendly interface for interacting with the IPsatoshi layer. It could provide a visual representation of the system and allow users to easily navigate and interact with the various modules. The AI assistant could use machine learning algorithms to provide personalized assistance and to facilitate the creation and management of smart contracts. The GUI could also include a built-in Name Name System (NNS) for resolving names and making the user experience more intuitive.
+The AI Integrated GUI could be a user-friendly interface for interacting with the IPsatoshi layer. It would provide a visual representation of the system and allow users to easily navigate and interact with the various modules. The AI assistant could use machine learning algorithms and language models to provide personalized assistance and to facilitate the creation and management of sophisticated user products. The GUI would be an IPLD native browser/OS allowing for intuitive usage of the various decentralized protocols and services available throughout the IPLD. The GUI should integrate Name Name System (NNS) for resolving names and decentralized website address/location making the user experience more intuitive. Ideally the GUI could interact with the host device and allow for the contribution or the marketing, negotiation, and sale of available device resources to the network or it's users.
 
 ## Starting Points and Potential Integrations
 
