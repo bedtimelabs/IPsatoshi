@@ -64,6 +64,7 @@ https://bitcoin.org/bitcoin.pdf
 ## Media:
 
 https://www.cod.cloud 
+
 https://www.youtube.com/watch?v=e3N9x67B9jc Merge Mining and Why it Matters | Rootstock Summit 2022
 
 https://www.youtube.com/watch?v=UJwPyo2c_7k
