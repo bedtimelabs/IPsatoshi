@@ -10,8 +10,7 @@ IPsatoshi is a proposed Bitcoin scaling project aiming to integrate Bitcoin paym
 
 2. **InterPlanetary Consensus (IPC) with Mir and Trantor:** IPC is a scaling solution created by Consensus Labs of Protocol Labs and Filecoin. It allows for the creation of subnets, which are smaller networks within the larger network. These subnets could be used to implement, debug, and analyze distributed protocols. Mir and Trantor are tools used within IPC to facilitate these processes.
 	https://docs.filecoin.io/basics/interplanetary-consensus/hierarchical-consensus/ https://github.com/consensus-shipyard https://github.com/filecoin-project/mir
-
-	https://github.com/filecoin-project/mir/tree/main/pkg/trantor
+ 	https://github.com/filecoin-project/mir/tree/main/pkg/trantor
 
 4. **WebNative File System (WNFS):** WNFS is a decentralized file system that could allow users to control their data and share it across applications and devices. It uses IPFS for data storage and IPLD for data structuring.
 	https://github.com/wnfs-wg/
@@ -81,7 +80,9 @@ Applications of IPC - Juan Benet
 
 https://www.youtube.com/watch?v=8lDwBnQ9Wuc
 Protocol Labs – Vision
- https://www.youtube.com/watch?v=qPLhqPGDZyk InterPlanetary Consensus (IPC): Adding a consensus layer wherever is needed - Alfonso De la Rocha
+
+ https://www.youtube.com/watch?v=qPLhqPGDZyk 
+InterPlanetary Consensus (IPC): Adding a consensus layer wherever is needed - Alfonso De la Rocha
 
 https://www.youtube.com/watch?v=-S95I-O1MXo
 UCAN + WNFS for Filecoin
