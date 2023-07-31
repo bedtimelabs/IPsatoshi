@@ -5,7 +5,7 @@ IPsatoshi is a proposed Bitcoin scaling project aiming to integrate Bitcoin paym
 
 ## Core Components
 
-1. **Bitcoin and Rootstock (RSK) Nodes:** These nodes would form the base on which the IPsatoshi layer rests. Rootstock is a merge mined Bitcoin sidechain that is incetive aligned with the game theory behind Bitcoin network security. The Rootstock sidechain will serve as a rootnet for IPsatoshi subnet nodes in the Interplanetary Consensus hierarchical consensus scaling architecture.
+1. **Bitcoin and Rootstock (RSK) Nodes:** These nodes would form the base on which the IPsatoshi layer rests. Rootstock is a merge-mined Bitcoin sidechain that is incetive aligned with the game theory behind Bitcoin network security. The Rootstock sidechain will serve as a rootnet for IPsatoshi subnet nodes in the Interplanetary Consensus hierarchical consensus scaling architecture. IPsatoshi nodes will provide the needed consensus flexibility to securely grow Bitcoin payment branches into the increasingly sophisticated decentralized data structure called the IPLD (Interplanetary Link Data) that is replacing the legacy centralized internet. 
 	https://dev.rootstock.io/
 
 2. **InterPlanetary Consensus (IPC) with Mir and Trantor:** IPC is a scaling solution created by Consensus Labs of Protocol Labs and Filecoin. It allows for the creation of subnets, which are smaller networks within the larger network. These subnets can operate using their own consensus rules. They are highly configurable and allow for modular scaling. Mir and Trantor are tools used within IPC to facilitate these processes.
@@ -21,7 +21,7 @@ IPsatoshi is a proposed Bitcoin scaling project aiming to integrate Bitcoin paym
 	https://github.com/ipvm-wg
 	https://github.com/bacalhau-project
 
-6. **UCAN + Channel Payments:** UCAN (User-Controlled Authorization Networks) is a protocol for decentralized identity and access control. It could allow users to control who can access their data and what they can do with it. In the IPsatoshi layer, UCAN/IPLD channel payments could be used to facilitate microtransactions and to incentivize the provision of services as well as allow for Bitcoin scale and remain accessible into the future. 
+6. **UCAN + Channel Payments:** UCAN (User-Controlled Authorization Networks) is a protocol for decentralized identity and access control. It could allow users to control who can access their data and what they can do with it. In the IPsatoshi layer, UCAN/IPLD channel payments could be used to facilitate microtransactions and to incentivize the provision of services as well as allow for Bitcoin scale and remain accessible into the future. UCAN's will be able to interact with delegate-aware blockchains such as the IPsatoshi subnet.
 	https://github.com/ucan-wg 
 
 7. **Decentralized Identifiers (DIDs):** DIDs are a new type of identifier that enables verifiable, decentralized digital identity. They could be used in the IPsatoshi layer to provide a secure and privacy-preserving mechanism for users to create and manage their digital identities. DIDs could be used to route channel payments and manage isolated user services.
