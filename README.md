@@ -47,7 +47,8 @@ The AI Integrated GUI could be a user-friendly interface for interacting with th
 5. **Taubyte:** A cloud-native layer for Web 3 and Edge Computing that offers features such as horizontal scalability, autonomy, resilience, and decentralization.
 	https://github.com/taubyte
 
-6. **CRDTs (Conflict-free Replicated Data Types):** CRDTs are data structures that allow multiple replicas to be updated independently and concurrently without coordination between them, and then merged, with a guaranteed eventual consistency. They could be used in the IPsatoshi layer to manage state in a distributed system.
+6. **CRDTs (Conflict-free Replicated Data Types):** CRDTs are data structures that allow multiple replicas to be updated independently and concurrently without coordination between them, and then merged, with a guaranteed eventual consistency. They could be used in the IPsatoshi layer in a variety of applictions.
+	https://martin.kleppmann.com/papers/bft-crdt-papoc22.pdf
 
 7. **NNS (Name Name System):** A decentralized naming system that could be integrated into the GUI for resolving names and making the user experience more intuitive.
 	https://talk.fission.codes/t/nns-the-name-name-system/3684
